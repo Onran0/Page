@@ -2,6 +2,23 @@ body {
   background-color: #000000;
 }
 
+.grtitle {
+  text-decoration: none;
+  margin: 10px 10px;
+  margin-left: 0%;
+  border-radius: 30px;
+  text-align: center;
+  letter-spacing: 2px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 55px;
+  font-weight: bold;
+  color: white;
+  transition: .5s;
+  background: -webkit-linear-gradient(#eee , #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent
+}
+
 .title {
   text-decoration: none;
   margin: 10px 10px;
@@ -32,10 +49,10 @@ body {
 
 .button {
   text-decoration: none;
-  display: inline-block;
+  display: grid;
   padding: 12px 40px;
-  margin: 10px 10px;
-  margin-left: 42.3%;
+  text-align: center;
+  margin: 20px 700px;
   border-radius: 30px;
   background-image: linear-gradient(45deg, #06ba00 0%,  #1cd100 50%, #06ba00 100%);
   background-position: 100% 0;
